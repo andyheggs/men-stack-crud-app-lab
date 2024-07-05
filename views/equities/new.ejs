@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Equity</title>
+  </head>
+  <body>
+    
+    <h1>Create a New Equity!</h1>
+
+    <a href="/fruits/">Back to Fruits</a>
+
+    <form action="/equities" method="POST">
+
+        <label for="equityName">Equity Name:</label>
+
+        <input type="text" name="equityName" id="equityName" />
+
+
+        <label for="tickerSymbol">Ticker Symbol:</label>
+
+        <input type="text" name="tickerSymbol" id="tickerSymbol" />
+
+
+        <label for="currentPrice">Current Price:</label>
+
+        <input type="number" name="currentPrice" id="currentPrice" step="0.01" />
+
+
+        <label for="inPortfolio">In Portfolio?</label>
+
+        <input type="checkbox" name="inPortfolio" id="inPortfolio" />
+
+        <button type="submit">Add Equity</button>
+        
+    </form>
+
+</body>
